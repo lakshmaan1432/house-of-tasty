@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: yellow;
+    border: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    font-size: xx-large;
+}
+
+li{
+    padding: 20px;
+    transition-duration: 2s;
+}
+
+li:hover{
+background-color: green;
+transition-duration: 1.7s;
+}
+
+a{
+    text-decoration: none;
+}
+
